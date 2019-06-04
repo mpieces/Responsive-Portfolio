@@ -235,28 +235,62 @@ h3, h2 {
     background: #4aaaa5;
     border: 0 none;
   }
+
+
+
   
-/* input[type=text], input[type=email], textarea {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-
-#btn-submit {
-    border-radius: 0;
-    padding: 10px 20px;
-    color: #fff;
-    background-color: #4aaaa5;
-    margin-top: 25px;
-} */
-
-
 /* MEDIA QUERIES */
 
 
+@media screen and (max-width: 980px) {
 
+nav {
+  margin-right: 30px;
+}
+
+.main-section {
+  max-width: 750px;
+  margin-left: 10%;
+  margin-right: 10%; 
+}
+}
+
+@media screen and (max-width: 768px) {
+
+.main-section {
+  max-width: 600px;
+}
+.work {
+  max-width: 245px;
+}
+}
+
+@media screen and (max-width: 640px) {
+
+  #masthead {
+    position: static;
+  }
+
+  #logo {
+    width: 100%;
+  }
+  
+  nav {
+    text-align: center;
+    float: none;
+    margin-top: 0;
+  }
+
+  .main-section {
+    max-width: 500px;
+    margin-top: -100px;
+  }
+
+  .work img {
+    max-width: 100%;
+  }
+
+  .work {
+    max-width: 100%;
+  }
+}
